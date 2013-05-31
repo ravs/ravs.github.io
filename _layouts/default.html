@@ -30,8 +30,16 @@
             </a>
           </section>
           <ul class="menu">
-            <li><a href="/about">About</a></li>
-            <li><a href="/projects">Projects</a></li>
+            <li 
+              {% if page.title == 'Ravs' %}
+                class="selected"
+              {% endif %}
+            ><a href="/about">About</a></li>
+            <li
+              {% if page.title == 'Projects' %}
+                class="selected"
+              {% endif %}
+            ><a href="/projects">Projects</a></li>
           </ul>
           <ul class="social">
             <li><a href="https://github.com/ravs"><span aria-hidden="true" class="icon-github"></span></a></li>
