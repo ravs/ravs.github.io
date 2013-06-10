@@ -284,6 +284,10 @@ h3 {
 }
 .content hr{
 }
+.content .mail {
+  color: #2E92DA;
+  font-style: italic;
+}
 .meta {
 }
 .meta a {
