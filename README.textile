@@ -1,8 +1,6 @@
-h1. This is the data for my blog
+h1. This is the data for "ravs.me":http://ravs.me
 
-I love "GitHub":http://github.com.
-
-This site is powered by "Jekyll":http://github.com/mojombo/jekyll
+Content for my personal site.
 
 h1. License
 
@@ -10,6 +8,5 @@ The following directories and their contents are Copyright Ravi Shankar. You may
 
 * _posts/
 * images/
-* projects
 
-All other directories and files are MIT Licensed. Feel free to use the HTML and CSS as you please.
+All other directories and files are MIT Licensed.
