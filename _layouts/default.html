@@ -48,7 +48,7 @@
           </ul>
         </div>
       </div><!--Header-->
-      <div class="hero" style="background-image: url({{ site.heroaws_url }}{{ page.herounit }}.jpg);">
+      <div class="hero" style="background-image: url({{ site.heroaws_url }}{{ page.herounit }}.jpg);{%if page.y-size %}background-size: 100% {{page.y-size}}%;{% endif %} {% if page.y-position %} background-position-y: {{page.y-position}}px;{% endif %}">
       </div><!--Hero-->
       <section class="container content">
 
