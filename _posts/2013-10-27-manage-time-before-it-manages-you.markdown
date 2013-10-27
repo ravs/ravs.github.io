@@ -7,7 +7,7 @@ herounit: 3
 
 Only two months spent and I learned the VALUE of time and the NEED to manage it. When you are pursuing higher studies in US, your every second counts.
 
-From distant it might sound like exaggeration but if you hold a degree from any university in America you will know that this is the ground reality. Managing time and learning how to manage it efficiently is an art, an art which universities in America teach every student inherently. If you are not keeping a track of Time then you are doing a mistake.
+From distant it might sound like exaggeration but if you hold a degree from any university in America you will know that this is the ground reality. Managing time and learning how to manage it efficiently is an art, an art which universities in America teach every student inherently. If you are not keeping track of Time then you are doing a mistake.
 
 Don't be lazy, anyone can be lazy. Keep doing stuff it will make you active. Learn from athletes, keep pushing yourself, keep challenging yourself. The more you do the less time you will have. Lesser the time more you will learn how to plan your schedule. More you plan the most you can take out of every second spent of your day.
 
