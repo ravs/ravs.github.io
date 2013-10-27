@@ -5,7 +5,7 @@ date:   2013-05-30 01:50:35
 herounit: 3
 ---
 
-This site is under construction.
+Welcome to ravs's site.
 
 I am hosting this site on [GitHub][github] powered by [Jekyll][jekyll]
 
