@@ -248,6 +248,7 @@ h3 {
 }
 .content i, .content em {
   font-style: italic;
+  color: grey;
 }
 .content b, .content strong {
   font-weight: 700;
