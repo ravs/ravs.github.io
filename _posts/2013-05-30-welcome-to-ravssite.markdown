@@ -2,7 +2,9 @@
 layout: post
 title:  "Welcome to Ravs's site!"
 date:   2013-05-30 01:50:35
-herounit: 3
+herounit: 11
+y-size: 200
+y-position: 355
 ---
 
 Welcome to ravs's site.
