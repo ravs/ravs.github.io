@@ -455,8 +455,8 @@ h3 {
     }
     .hero {
       height: 150px;
-      background-size: 200% 200%;
-      background-position: 50% 20%;
+      background-size: 200% 200% !important;
+      background-position: 50% 20% !important;
     }
     .container {
       width: auto;
