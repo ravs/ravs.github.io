@@ -455,6 +455,8 @@ h3 {
     }
     .hero {
       height: 150px;
+      background-size: 200% 200%;
+      background-position: 50% 20%;
     }
     .container {
       width: auto;
@@ -477,8 +479,8 @@ h3 {
     }
     .date {
       width: auto;
-      float: none;
-      margin: -20px 0 0 12px;
+      float: left;
+      margin: -14px 0 0 12px;
       -webkit-transform: none;
     }
 }
