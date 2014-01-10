@@ -147,7 +147,7 @@ blockquote {
   -webkit-font-smoothing: antialiased;
 }
 .header a:hover, .header a:hover b {
-  color: #444;
+  color: #000;
 }
 
 .name {
@@ -179,13 +179,13 @@ blockquote {
   text-transform: uppercase;
 }
 .menu li a:hover {
-  border-bottom: 2px solid #444;
+  border-bottom: 2px solid #000;
   transition: border 0.15s ease-in;
   -webkit-transition: border 0.15s ease-in;
 }
 .selected a {
-  color: #444;
-  border-bottom: 2px solid #444;
+  color: #000;
+  border-bottom: 2px solid #000;
   cursor: default;
 }
 
@@ -460,9 +460,10 @@ h3 {
       padding: 0;
     }
     .hero {
-      height: 150px;
-      background-size: 200% 200% !important;
-      background-position: 50% 20% !important;
+      height: 250px;
+    }
+    .header{
+      margin: 36px 0 36px 0;
     }
     .container {
       width: auto;
@@ -473,20 +474,25 @@ h3 {
     }
     .menu {
       text-align: center;
+      margin: 10px;
     }
     .menu li {
       display: list-item;
       list-style: none;
     }
     .social {
-      text-align: center;
+      display: none;
+      /*text-align: center;
       margin: -6px 20px -20px 0;
-      float: none;
+      float: none;*/
     }
     .date {
       width: auto;
       float: left;
       margin: -14px 0 0 12px;
       -webkit-transform: none;
+    }
+    .listing li {
+      font-size: 15px;
     }
 }
