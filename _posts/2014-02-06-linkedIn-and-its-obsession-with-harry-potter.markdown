@@ -16,8 +16,8 @@ The paper which I picked was on how to efficiently bulk load and serve the data 
 
 So I started moving on with the task and was browsing LinkedIn's open source projects, and the first thing which I noticed was the traces of Harry Potter on their site: Voldemort, Azkaban and Norbert.
 
-[Voldemort][voldemort]: A distributed key/value database.
-[Azkaban][azkaban]: A job scheduler to run Hadoop jobs.
+[Voldemort][voldemort]: A distributed key/value database. <br>
+[Azkaban][azkaban]: A job scheduler to run Hadoop jobs. <br>
 [Norbert][norbert]: A cluster management and networking layer built on Zookeeper.
 
 I liked the way their open source projects bear a connection with Harry Potter. Now I can throw some  swag while speaking with my PhD friends, "<i>I'm working with Voldemort</i>". [Ha Ha]
