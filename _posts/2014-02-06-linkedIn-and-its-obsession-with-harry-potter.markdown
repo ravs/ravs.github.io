@@ -8,7 +8,7 @@ y-position: 360
 ---
 "<i>It's our choices, Harry, that show what we truly are, far more than our abilities.</i>" - Albus Dumbledore
 
-I started year 2014 with reading quite a lot research papers on systems courtesy of CSE536 Advanced Operating System. I will be writing about my experience of this course and the story of those brave 13 souls who survived and cherished this course in another post. This post is not about the course, rather I am writing this post wondering, "Why LinkedIn is so obsessed with Harry Porter?"
+I started year 2014 with reading quite a lot research papers on systems courtesy of CSE536 Advanced Operating System. I will be writing about my experience of this course and the story of those brave 13 souls who are on an adventurous journey with this course in another post. This post is not about the course, rather I am writing this post wondering, "Why LinkedIn is so obsessed with Harry Porter?"
 
 As a part of the course structure, we are supposed to reproduce the results of a research paper of our choice which we need to pick from the list of 24 "awesome" research papers. When I say "awesome", I really mean it. All of the papers are unique and challenge different areas of operating systems.
 
