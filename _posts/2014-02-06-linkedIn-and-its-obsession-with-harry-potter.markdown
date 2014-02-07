@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "linkedin and its obsession with harry potter"
+title:  "LinkedIn and its obsession with Harry Potter"
 date:   2014-02-06 21:16:10
 herounit: 12
 y-size: 200
