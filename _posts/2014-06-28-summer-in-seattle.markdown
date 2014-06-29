@@ -9,7 +9,7 @@ y-position: 60
 
 For me, living in Seattle is like being in love with a beautiful woman who is in love with coffee, culture, nature, parks, and lastly rain. This city has so much to offer that you need many extended vacations to experience everything Seattle has got. Luckily I'm here for 12 weeks which gives me sufficient time to enjoy most of the Seattle.
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/UxBhs6xuz6w" frameborder="0" allowfullscreen=""></iframe>
+<iframe class="video" src="//www.youtube.com/embed/UxBhs6xuz6w" frameborder="0" allowfullscreen=""></iframe>
 
 Things turned out pretty smooth for me. I got an apartment on 8th & Pine Street (courtesy of [Amazon][amazon], my employer), which is in the heart of the downtown Seattle. Places like, Pike Place Market, numerous parks (like, Victor Steinbrueck Park, Olympic Sculpture Park, Kerry Park and many more), First Starbucks Store, Seattle Waterfront (specially, Piers 62nd and 63rd), Post Alley - Gum Wall, are just a walk away.
 
