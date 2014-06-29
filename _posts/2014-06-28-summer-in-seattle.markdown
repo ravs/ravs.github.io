@@ -17,7 +17,7 @@ I had never imagined to witness what I did in just first two days of my summer h
 
 First off, those who think that it always rains in Seattle, thats not true, at least not in summer. I can say that from my experience. And when it rains, its not usual torrential downpour, its like light shower which will hardly wet you. Seattle gets ~ 37 inches of rain, which is way lower than Miami where it is ~ 60 inches.
 
-When I walked down to 1st Avenue to visit Pike Place Market, I was amazed to see the liveliness and the energy in the crowd. I have experienced that kind of energy only at two places in US so far, first Las Vegas Strip and second Pike Place Market. It would be criminal to compare both of them, since they both are completely different from each other. But both the places have tremendous amount of energy and offerings to attract people from around the world.
+When I walked down to 1st Avenue to visit Pike Place Market, I was amazed to see the liveliness and the energy in the crowd. I have experienced that kind of energy only at two places in US so far, first, Las Vegas Strip, and second, Pike Place Market. It would be criminal to compare both of them, since they both are completely different from each other. But both the places have tremendous amount of energy and offerings to attract people from around the world.
 
 When you walk by Pike Place Market for first time, you tend to get overwhelmed. But try to slow down and assimilate as much as possible. The myriad of shops, cafes, restaurants, chowder places, Greek yogurt shops, Turkish delight, will awestruck you. So visit Pike Place with empty stomach and plenty of free time.
 
