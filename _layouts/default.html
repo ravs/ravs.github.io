@@ -35,11 +35,11 @@
                 class="selected"
               {% endif %}
             ><a href="/about">About</a></li>
-            <li
+            <!-- <li
               {% if page.title == 'Projects' %}
                 class="selected"
               {% endif %}
-            ><a href="/projects">Projects</a></li>
+            ><a href="/projects">Projects</a></li> -->
             <li
               {% if page.title == 'Resume' %}
                 class="selected"
@@ -53,10 +53,10 @@
           </ul>
         </div>
       </div><!--Header-->
-      <div class="hero" style="background-image: url(https://s3.amazonaws.com/ravs/hero/chair.JPG);background-size: cover;background-position: center;">
-      </div>
-      <!-- <div class="hero" style="background-image: url({{ site.heroaws_url }}{{ page.herounit }}.jpg);{%if page.y-size %}background-size: 100% {{page.y-size}}%;{% endif %} {% if page.y-position %} background-position-y: {{page.y-position}}px;{% endif %}">
-      </div> --><!--Hero-->
+      <!-- <div class="hero" style="background-image: url(https://s3.amazonaws.com/ravs/hero/chair.JPG);background-size: cover;background-position: center;">
+      </div> -->
+      <div class="hero" style="background-image: url({{ site.heroaws_url }}{{ page.herounit }}.jpg); background-size: cover; {% if page.y-position %} background-position-y: {{page.y-position}}%;{% endif %}">
+      </div> <!--Hero-->
       <section class="container content">
 
         {{ content }}

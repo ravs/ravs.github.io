@@ -3,8 +3,7 @@ layout: post
 title:  "couple of luggage and plethora of dreams"
 date:   2013-12-19 07:30:10
 herounit: 12
-y-size: 200
-y-position: 360
+y-position: 60
 ---
 
 "<i>It always seems impossible until its done.</i>" - Nelson Mandela

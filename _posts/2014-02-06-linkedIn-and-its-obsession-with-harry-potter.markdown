@@ -2,9 +2,8 @@
 layout: post
 title:  "LinkedIn and its obsession with Harry Potter"
 date:   2014-02-06 21:16:10
-herounit: 12
-y-size: 200
-y-position: 360
+herounit: PostAlleyGraffiti
+y-position: 60
 ---
 "<i>It's our choices, Harry, that show what we truly are, far more than our abilities.</i>" - Albus Dumbledore
 
