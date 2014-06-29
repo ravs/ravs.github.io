@@ -7,7 +7,7 @@ y-position: 60
 ---
 "<i>Living in Seattle is like being in love with a beautiful woman who is sick all the time.</i>" - Anonymous
 
-For me, living in Seattle is like being in love with a beautiful woman who is in love with coffee, culture, nature, parks, and lastly rain. This city has so much to offer that you need many extended vacations to experience everything Seattle has got. Luckily I'm here for 12 weeks which gives me sufficient time to enjoy most of the Seattle.
+For me, living in Seattle is like being in love with a beautiful woman who is in love with coffee, culture, nature, parks, and lastly rain. This city has so much to offer that you need many extended vacations to experience everything. Luckily I'm here for 12 weeks which gives me sufficient time to enjoy most of the Seattle.
 
 <iframe class="video" src="//www.youtube.com/embed/UxBhs6xuz6w" frameborder="0" allowfullscreen=""></iframe>
 
