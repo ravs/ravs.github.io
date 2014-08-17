@@ -214,6 +214,19 @@ blockquote {
   box-shadow: inset 0 0 30px rgba(0,0,0,.90);
 }
 
+.hero-self {
+  position: absolute;
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-image: url(https://s3.amazonaws.com/ravs/hero/selfieAtRainier.jpg);
+  top: 220px;
+  left: 5%;
+  background-position-y: -40px;
+}
+
 .aside {
   margin-bottom: 25px;
   background-color: #eee;
@@ -467,6 +480,9 @@ h3 {
     .hero {
       height: 250px;
     }
+    .hero-self {
+      display: none !important;
+    }
     .header{
       margin: 36px 0 36px 0;
     }
@@ -505,4 +521,19 @@ h3 {
       height: auto;
       padding: 0 20px;
     }
+}
+@media only screen and (min-width: 650px) and (max-width: 929px) {
+  .hero-self {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 930px) and (max-width: 1080px) {
+  .hero-self {
+    display: block;
+    width: 100px;
+    height: 100px;
+    left: 2%;
+    top: 242px;
+    background-position-y: -25px;
+  }
 }
