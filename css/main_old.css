@@ -97,7 +97,6 @@ body {
   padding: 0;
   font-family: Helvetica, sans-serif;
   font-weight: 300;
-  width: 100%;
 }
 
 a {
@@ -135,14 +134,97 @@ blockquote {
   clear: both;
 }
 
+/*.header {
+  margin: 50px 0 0 0;
+  position: absolute;
+  width: 100%;
+}
+.header a, .header b {
+  color: #52A2F8;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: color 0.25s ease-in;
+  -webkit-transition: color 0.25s ease-in;
+  -webkit-font-smoothing: antialiased;
+}
+.header a:hover, .header a:hover b {
+  color: #fff;
+}
+
+.name {
+  text-align: center;
+  text-transform: capitalize;
+}
+.name a {
+  font-size: 40px;
+  font-weight: 700;
+}
+.name b {
+  font-weight: 700;
+}
+
+.menu {
+  padding: 0;
+  margin: 140px 0 10px 0;
+  font-weight: 300;
+}
+.menu li {
+  display: inline;
+  padding-right: 15px;
+}
+.menu li a{
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.menu li a:hover {
+  border-bottom: 2px solid #fff;
+  transition: border 0.15s ease-in;
+  -webkit-transition: border 0.15s ease-in;
+}
+.selected a {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  cursor: default;
+}
+
+.social {
+  margin: -44px 0 0 0;
+  padding: 0;
+  padding-top: 2px;
+  float: right;
+}
+.social li {
+  display: inline;
+  font-size: 22px;
+  padding-left: 5px;
+}
+*/
 .container {
   width: 650px;
   margin: 0 auto;
 }
 
-.site-wrapper {
-  width: 100%;
+/*.hero {
+  background-color: #2B2B2B;
+  background-size: 100% 100%;
+  height: 300px;
+  box-shadow: inset 0 0 30px rgba(0,0,0,.90);
 }
+
+.hero-self {
+  position: absolute;
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-image: url(https://s3.amazonaws.com/ravs/hero/selfieAtRainier.jpg);
+  top: 220px;
+  left: 5%;
+  background-position-y: -40px;
+}
+*/
 
 .hero-wrapper {
   height: 350px; 
@@ -164,11 +246,11 @@ blockquote {
 
 .content-wrapper {
   height: 100% !important; 
-  width: 100% !important;
   position: relative; 
   margin-top: 350px; 
   background-color: #fff;
 }
+
 .content-wrapper header {
   text-align: center; 
   margin-bottom: 70px;
@@ -181,9 +263,7 @@ blockquote {
   color: #333;
 }
 .content-wrapper header .name a:hover,
-.content-wrapper header .menu li a:hover,
-.content-wrapper header .menu li a:active,
-.content-wrapper header .menu li a:focus {
+.content-wrapper header .menu li a i:hover {
   color: #2E92DA;
 }
 .content-wrapper header .desc {
@@ -206,7 +286,6 @@ blockquote {
 }
 .content-wrapper header .menu li a {
   color: #444;
-  outline: 0;
 }
 .content-wrapper header .menu li a .title {
   font-size: 11px; 
@@ -261,8 +340,8 @@ h1 {
   padding: 20px 30px;
   font-weight: 500;
   color: #444;
-  border-left: 7px solid #ddd;
-  border-right: 7px solid #ddd;
+  border-left: 7px solid #eee;
+  border-right: 7px solid #eee;
 }
 
 h2 {
@@ -283,7 +362,9 @@ h3 {
   color: #444;
 }
 
-.content {}
+.content {
+
+}
 .content i, .content em {
   font-style: italic;
   color: grey;
@@ -327,15 +408,19 @@ h3 {
   color: #2E92DA;
   font-style: italic;
 }
-.content .video {
-  width: 640px;
-  height: 480px;
+/*.meta {
 }
-
+.meta a {
+}
+.meta a:hover {
+}
+.meta .block {
+}
+.meta .block div {
+}*/
 .clear {
   height: 50px;
 }
-
 .listing {
   margin: 25px 0;
   padding: 0;
@@ -357,7 +442,21 @@ h3 {
 .listing a {
   text-decoration: none;
 }
-
+/*
+.about-avatar {
+  float: left;
+  padding: 7px 0px 150px 0;
+}
+.about-avatar img {
+  margin-left: -150px;
+  width: 125px;
+  border: none;
+  padding: 0;
+}*/
+.content .video {
+  width: 640px;
+  height: 480px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -469,7 +568,7 @@ h3 {
     /* Style adjustments for viewports that meet the condition */
     h1 {
       text-align: center;
-      margin: 20px 4px;
+      margin: 20px 0;
       padding: 0;
     }
     h2, h3 {
@@ -477,11 +576,14 @@ h3 {
       margin: 0;
       padding: 0;
     }
-    .hero-wrapper {
+    .hero {
       height: 250px;
     }
-    .content-wrapper {
-      margin-top: 250px;
+    .hero-self {
+      display: none !important;
+    }
+    .header{
+      margin: 36px 0 36px 0;
     }
     .container {
       width: auto;
@@ -490,8 +592,19 @@ h3 {
       padding: 0 12px;
       text-align: justify;
     }
+    .menu {
+      text-align: center;
+      margin: 10px;
+    }
+    .menu li {
+      display: list-item;
+      list-style: none;
+    }
     .social {
       display: none;
+      /*text-align: center;
+      margin: -6px 20px -20px 0;
+      float: none;*/
     }
     .date {
       width: auto;
@@ -508,21 +621,18 @@ h3 {
       padding: 0 20px;
     }
 }
-@media only screen and (min-width: 650px) and (max-width: 850px) {
-  h1 {
-    margin: 40px -1%;
+@media only screen and (min-width: 650px) and (max-width: 929px) {
+  .hero-self {
+    display: none !important;
   }
-  .container {
-    width: auto;
-    padding: 0 10px;
-  }
-  .date {
-      width: auto;
-      float: left;
-      margin: -30px 0 0 0;
-      -webkit-transform: none;
-    }
 }
 @media only screen and (min-width: 930px) and (max-width: 1080px) {
-  
+  .hero-self {
+    display: block;
+    width: 100px;
+    height: 100px;
+    left: 2%;
+    top: 242px;
+    background-position-y: -25px;
+  }
 }

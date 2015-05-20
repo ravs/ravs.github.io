@@ -17,54 +17,63 @@
         <link rel="stylesheet" href="/css/normalize.css">
         <link rel="stylesheet" href="/css/syntax.css">
         <link rel="stylesheet" href="/css/main.css">
-        <link rel="stylesheet" href="/css/fontface.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
         <script type="text/javascript" src="//use.typekit.net/zol4pxf.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
-      <div class="header">
-        <div class="container">
-          <section class="name">
-            <a href="/">
-              Ravi&nbsp;&nbsp;<b>Shankar</b>
-            </a>
-          </section>
-          <ul class="menu">
-            <li 
-              {% if page.title == 'About' %}
-                class="selected"
-              {% endif %}
-            ><a href="/about">About</a></li>
-            <!-- <li
-              {% if page.title == 'Projects' %}
-                class="selected"
-              {% endif %}
-            ><a href="/projects">Projects</a></li> -->
-            <li
-              {% if page.title == 'Resume' %}
-                class="selected"
-              {% endif %}
-            ><a href=" {{ site.resumeaws_url }} " target="_blank">Resume</a></li>
-          </ul>
-          <ul class="social">
-            <li><a href="https://github.com/ravs"><span aria-hidden="true" class="icon-github"></span></a></li>
-            <li><a href="https://twitter.com/ravs24"><span aria-hidden="true" class="icon-twitter-2"></span></a></li>
-            <li><a href="http://feeds.feedburner.com/"><span aria-hidden="true" class="icon-feed-2"></span></a></li>
-          </ul>
+      <div class="site-wrapper">
+        <div class="hero-wrapper">
+          <div class="hero" style="background-image: url({{ site.heroaws_url }}{{ page.herounit }}.jpg);"></div>
         </div>
-      </div><!--Header-->
-      <div class="hero-self" style="
-    display: {% if page.title == 'Home' %}block{% elsif page.title == 'About' %}block{% else %}none{% endif %};"> </div>
-      <!-- <div class="hero" style="background-image: url(https://s3.amazonaws.com/ravs/hero/chair.JPG);background-size: cover;background-position: center;">
-      </div> -->
-      <div class="hero" style="background-image: url({{ site.heroaws_url }}{{ page.herounit }}.jpg); background-size: cover; {% if page.y-position %} background-position-y: {{page.y-position}}%;{% endif %}">
-      </div> <!--Hero-->
-      <section class="container content">
 
-        {{ content }}
+        <div class="content-wrapper">
 
-      </section><!--Content-->
+          <header>
+            <div class="avatar-wrapper">
+              <span class="avatar-frame">
+                <img class="avatar-image" src="https://d262ilb51hltx0.cloudfront.net/fit/c/800/800/0*iBiGeh4kIw4F3PrB.jpeg">
+              </span>
+            </div><!-- avatar -->
+            
+            <div class="name"><a href="/">{{ site.name }}</a></div>
 
+            <div class="desc"><span>{{ site.short_desc }}</span></div>
+
+            <ul class="menu">
+              <li>
+                <a href="/about"><div class="title"><span>About</span></div>
+                <i class="fa fa-user"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/{{site.github}}" target="_blank"><div class="title"><span>Github</span></div><i class="fa fa-github"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/{{site.twitter}}" target="_blank"><div class="title"><span>Twitter</span></div><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="http://instagram.com/{{site.instagram}}" target="_blank"><div class="title"><span>Instagram</span></div><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="http://www.linkedin.com/in/{{site.linkedin}}" target="_blank"><div class="title"><span>LinkedIn</span></div><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href=" {{ site.resumeaws_url }} " target="_blank"><div class="title"><span>Resume</span></div><i class="fa fa-file"></i></a>
+              </li>
+            </ul>
+          </header><!-- header -->
+
+          <div>
+            <section class="container content">
+
+            {{ content }}
+
+            </section>
+          </div><!--Content-->
+
+        </div>
+        
+      </div>
       <!-- Google Analytics -->
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

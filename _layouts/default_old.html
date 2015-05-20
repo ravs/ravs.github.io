@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>
+          {% if page.title %}
+            {{ page.title }} &ndash;
+          {% endif %}
+          {{ site.name }}
+        </title>
+        <meta name="author" content="{{ site.name }}" />
+        <meta name="description" content="{{ site.description }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/fontface.css">
+        <script type="text/javascript" src="//use.typekit.net/zol4pxf.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+    <body>
+      <div class="header">
+        <div class="container">
+          <section class="name">
+            <a href="/">
+              Ravi&nbsp;&nbsp;<b>Shankar</b>
+            </a>
+          </section>
+          <ul class="menu">
+            <li 
+              {% if page.title == 'About' %}
+                class="selected"
+              {% endif %}
+            ><a href="/about">About</a></li>
+            <!-- <li
+              {% if page.title == 'Projects' %}
+                class="selected"
+              {% endif %}
+            ><a href="/projects">Projects</a></li> -->
+            <li
+              {% if page.title == 'Resume' %}
+                class="selected"
+              {% endif %}
+            ><a href=" {{ site.resumeaws_url }} " target="_blank">Resume</a></li>
+          </ul>
+          <ul class="social">
+            <li><a href="https://github.com/ravs"><span aria-hidden="true" class="icon-github"></span></a></li>
+            <li><a href="https://twitter.com/ravs24"><span aria-hidden="true" class="icon-twitter-2"></span></a></li>
+            <li><a href="http://feeds.feedburner.com/"><span aria-hidden="true" class="icon-feed-2"></span></a></li>
+          </ul>
+        </div>
+      </div><!--Header-->
+      <div class="hero-self" style="
+    display: {% if page.title == 'Home' %}block{% elsif page.title == 'About' %}block{% else %}none{% endif %};"> </div>
+      <!-- <div class="hero" style="background-image: url(https://s3.amazonaws.com/ravs/hero/chair.JPG);background-size: cover;background-position: center;">
+      </div> -->
+      <div class="hero" style="background-image: url({{ site.heroaws_url }}{{ page.herounit }}.jpg); background-size: cover; {% if page.y-position %} background-position-y: {{page.y-position}}%;{% endif %}">
+      </div> <!--Hero-->
+      <section class="container content">
+
+        {{ content }}
+
+      </section><!--Content-->
+
+      <!-- Google Analytics -->
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-41299285-1', 'ravs.me');
+        ga('send', 'pageview');
+
+      </script>
+      <!-- Google Analytics end -->
+    </body>
+</html>
