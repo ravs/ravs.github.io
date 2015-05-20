@@ -320,6 +320,7 @@ h3 {
   margin: -127px -80px 0 0;
   font-weight: 300;
   -webkit-transform: rotateZ(90deg);
+  transform: rotateZ(90deg);
 }
 .content hr{
 }
@@ -498,6 +499,7 @@ h3 {
       float: left;
       margin: -14px 0 0 12px;
       -webkit-transform: none;
+      transform: none;
     }
     .listing li {
       font-size: 15px;
@@ -521,6 +523,7 @@ h3 {
       float: left;
       margin: -30px 0 0 0;
       -webkit-transform: none;
+      transform: none;
     }
 }
 @media only screen and (min-width: 930px) and (max-width: 1080px) {
