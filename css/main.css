@@ -150,6 +150,11 @@ blockquote {
   top: 0; 
   left: 0; 
   right: 0;
+  /* SAFARI fixed position fix */
+  z-index: -10;
+  -webkit-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .hero {
@@ -219,7 +224,12 @@ blockquote {
 .avatar-wrapper {
   margin-top: -60px; 
   margin-bottom: 20px; 
-  display: inline-block; 
+  display: inline-block;
+  /* Start: SAFARI top valign fix */
+  display: -moz-inline-stack; 
+  *display: inline;
+  vertical-align: top;
+  /* End: SAFARI top valign fix */
   width: 120px; 
   height: 120px; 
   background-color: #fff; 
