@@ -168,6 +168,7 @@ blockquote {
   position: relative; 
   margin-top: 350px; 
   background-color: #fff;
+  z-index: 10;
 }
 .content-wrapper header {
   text-align: center; 
