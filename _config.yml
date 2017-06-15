@@ -1,4 +1,4 @@
-markdown: rdiscount
+markdown: kramdown
 highlighter: true
 
 name: Ravi Shankar
