@@ -1,5 +1,5 @@
 markdown: rdiscount
-pygments: true
+highlighter: true
 
 name: Ravi Shankar
 url: http://ravs.me
