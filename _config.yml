@@ -1,5 +1,5 @@
 markdown: kramdown
-highlighter: true
+highlighter: rouge
 
 name: Ravi Shankar
 url: http://ravs.me
