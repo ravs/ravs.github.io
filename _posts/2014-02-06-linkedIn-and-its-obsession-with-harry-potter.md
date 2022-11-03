@@ -21,6 +21,6 @@ So I started moving on with the task and was browsing LinkedIn's open source pro
 
 I liked the way their open source projects bear a connection with Harry Potter. Now I can throw some  swag while speaking with my PhD friends, "<i>I'm working with Voldemort</i>". [Ha Ha]
 
-[voldemort]: http://www.project-voldemort.com/voldemort/
-[azkaban]: http://azkaban.github.io/azkaban2/
-[norbert]: http://data.linkedin.com/opensource/norbert 
+[voldemort]: https://www.project-voldemort.com/voldemort/
+[azkaban]: https://azkaban.github.io/azkaban2/
+[norbert]: https://data.linkedin.com/opensource/norbert 

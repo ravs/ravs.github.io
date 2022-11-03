@@ -2,7 +2,7 @@ markdown: kramdown
 highlighter: rouge
 
 name: Ravi Shankar
-url: http://ravs.me
+url: https://ravs.me
 email: ravishankar.bit@gmail.com
 description: Personal site of Ravi Shankar - aka RAVS
 short_desc: Software Engineer, Marathoner, Snowboarder & SDE @ Amazon Web Services, Inc.
@@ -12,6 +12,6 @@ flickr: ravs24
 abouteme: ravs
 instagram: ra_vs
 linkedin: ravishankarbit
-gravatar_url: http://www.gravatar.com/avatar/eeb0bc72278473bba1456b8fbabad217
+gravatar_url: https://www.gravatar.com/avatar/eeb0bc72278473bba1456b8fbabad217
 heroaws_url: https://s3.amazonaws.com/ravs/hero/
-resumeaws_url: http://ravs.s3-website-us-east-1.amazonaws.com/resume/RaviShankarCV.pdf
+resumeaws_url: https://ravs.s3-website-us-east-1.amazonaws.com/resume/RaviShankarCV.pdf

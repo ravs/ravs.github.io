@@ -20,6 +20,6 @@ From your dive till your landing, everything will be happening very fast. First 
 Next is the dive, the best part. You can literally feel the acceleration courtesy of gravity and then zero acceleration once you've attained terminal velocity courtesy of air friction. Last line was in Physics, let me paraphrase it in English. First you will fall at really high speed, and you will try to control your adrenaline by shouting or laughing, you will feel the rush. Then eventually your speed will become constant and beyond that point it will feel like you are sleeping in air with no gravity. This is the time of the dive which you will really enjoy. But, hang on! Its not over yet, next is the pull of an external force, the Parachute. You can gauge yourself by this simple trick. If you liked opening of parachute then you are a laid back skydiver, and if you did not then you are an adventure seeker who loves free fall. Either ways you are a winner and you will know yourself better than ever. Lastly, the landing, the phase of realization. You gained elevation on a plane, dived out of that flying machine and you are on a parachute about to touch the ground. You did it! Go, run to your buddies, hug them, revisit every moment, relax, eat like you have been starving since ages, and proudly say, "<i>Skydive, you are off of my list</i>".
 
 <div style="text-align: center;"><i>Auf wiedersehen!!</i></div>
-<br> 
+<br>
 
-[alexhonnold]: http://www.alexhonnold.com
+[alexhonnold]: https://www.alexhonnold.com

@@ -6,7 +6,7 @@ herounit: neilgaiman
 ---
 "<i>Sometimes life is hard. Things go wrong in life, and in love, and in business, and in friendship, and in health, and in all the other ways that life can go wrong. And when things get tough, this is what you should do: MAKE GOOD ART!</i>" - Neil Gaiman
 
-"Everybody who is alive on this earth is making, or has ability to make, art (of some form)". 
+"Everybody who is alive on this earth is making, or has ability to make, art (of some form)".
 One may wonder how come a software engineer is talking about Art. Since our early days we are taught to choose specific field of study and follow the set path. Engineering, Science, Fine Art, Medical, Politics etc. are some of those fields. Often we forget to teach ourselves one major trait which is common in all of these fields and which makes us human, ART.
 
 I have been coding and developing softwares for almost a decade now, but I never used to consider my work as an art. It was always just a software, a program or an application for me. Don't take me wrong, I loved my work and gave my best in all of 'em, but I just never thought of them as an art. In my last semester of masters program, I had privilege of enrolling for the course, [Data Visualization][cse591dv] taught by [Dr. Sharon Hsiao][drhsiao]. This subject was not new to me and I had worked on data visualization projects previously. I have been exposed to this amazing and engaging area involving data and design for quite some time. The course was unique because of Dr. Hsiao and her way of engaging graduates, she was the reason this course had an effect on me, which made me reinvent myself.
@@ -36,6 +36,6 @@ So lets make some mistakes, break some rules, be more wise, make this world more
 <div style="text-align: center;"><i>Auf wiedersehen!</i></div>
 <br>
 
-[ng]: http://www.neilgaiman.com/
+[ng]: https://www.neilgaiman.com/
 [cse591dv]: https://sites.google.com/a/asu.edu/cse591_data-visualization/home
-[drhsiao]: http://www.public.asu.edu/~ihsiao1/
+[drhsiao]: https://www.public.asu.edu/~ihsiao1/

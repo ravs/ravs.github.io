@@ -10,5 +10,5 @@ Welcome to ravs's site.
 
 I am hosting this site on [GitHub][github] powered by [Jekyll][jekyll]
 
-[jekyll]:    http://jekyllrb.com
+[jekyll]:    https://jekyllrb.com
 [github]:	 https://github.com

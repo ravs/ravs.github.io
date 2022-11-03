@@ -13,7 +13,7 @@ For me, living in Seattle is like being in love with a beautiful woman who is in
 
 Things turned out pretty smooth for me. I got an apartment on 8th & Pine Street (courtesy of [Amazon][amazon], my employer), which is in the heart of the downtown Seattle. Places like, Pike Place Market, numerous parks (like, Victor Steinbrueck Park, Olympic Sculpture Park, Kerry Park and many more), First Starbucks Store, Seattle Waterfront (specially, Piers 62nd and 63rd), Post Alley - Gum Wall, are just a walk away.
 
-I had never imagined to witness what I did in just first two days of my summer here. From the busy Pike Place Market to the quiet and peaceful Piers 62/63, from busy and flamboyant Pine Street to dark and quiet Post Alley, from famous First Starbucks Store to not so famous but awesome Cafe Suisse. Seattle Downtown is like a bag full of gummy bears with different flavors, you never know what flavor you are about to experience. 
+I had never imagined to witness what I did in just first two days of my summer here. From the busy Pike Place Market to the quiet and peaceful Piers 62/63, from busy and flamboyant Pine Street to dark and quiet Post Alley, from famous First Starbucks Store to not so famous but awesome Cafe Suisse. Seattle Downtown is like a bag full of gummy bears with different flavors, you never know what flavor you are about to experience.
 
 First off, those who think that it always rains in Seattle, thats not true, at least not in summer. I can say that from my experience. And when it rains, its not usual torrential downpour, its like light shower which will hardly wet you. Seattle gets ~ 37 inches of rain, which is way lower than Miami where it is ~ 60 inches.
 
@@ -28,4 +28,4 @@ I am having time of my life here, Seattle is one the best city to live in. I wil
 <div style="text-align: center;"><i>Auf wiedersehen!!</i></div>
 <br>
 
-[amazon]: http://www.amazon.com
+[amazon]: https://www.amazon.com
